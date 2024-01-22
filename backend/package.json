@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/pg": "^8.10.9",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.12.6",
+    "pg": "^8.11.3"
+  }
+}
