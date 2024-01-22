@@ -36,3 +36,6 @@ docker run --rm -it \
 
 # output dir: ./dist
 ```
+
+### screenshot
+![screenshot](./docs/screenshot.png)
