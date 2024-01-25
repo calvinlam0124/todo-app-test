@@ -3,7 +3,7 @@ import routes from './routes.ts'
 
 const app = new Hono()
 
-routes(app);
+app.route('/', routes)
 
 
 // before end of app
